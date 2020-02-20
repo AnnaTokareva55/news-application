@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 class NewsService {
   constructor(apiKey, apiUrl, document) {
-    (this.apiKey = apiKey),
-      (this.apiUrl = apiUrl),
-      (this.main = document.querySelector("main")),
-      (this.searchContainer = document.querySelector(".search-container")),
-      (this.newsContainer = document.querySelector(".news-container")),
-      (this.countrySelect = document.getElementById("country")),
-      (this.categorySelect = document.getElementById("category")),
-      (this.searchInput = document.getElementById("search"));
+    this.apiKey = apiKey;
+    this.apiUrl = apiUrl;
+    this.main = document.querySelector("main");
+    this.searchContainer = document.querySelector(".search-container");
+    this.newsContainer = document.querySelector(".news-container");
+    this.countrySelect = document.getElementById("country");
+    this.categorySelect = document.getElementById("category");
+    this.searchInput = document.getElementById("search");
   }
 
   /**
