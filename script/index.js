@@ -1,7 +1,7 @@
 "use strict";
 
 const apiKey = "bc29cab729d34b1d9d0358d7ff86dabb";
-const apiUrl = "http://newsapi.org/v2/";
+const apiUrl = "https://newsapi.org/v2/";
 const form = document.querySelector(".search-form");
 
 document.addEventListener("DOMContentLoaded", () => {
