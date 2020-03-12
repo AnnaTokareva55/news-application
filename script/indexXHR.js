@@ -1,3 +1,5 @@
+// То же самое, но с использованием XHR.
+
 "use strict";
 
 const apiKey = "bc29cab729d34b1d9d0358d7ff86dabb";
